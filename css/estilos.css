@@ -101,6 +101,9 @@ background-color: rgb(0, 16, 63);
  .header2{
 	background-color: rgb(35, 63, 147);
  }
+ .aside1 .imge{
+	padding-left: 0;
+ }
  }
 .azul1{
 background-color: rgb(35, 63, 147);
@@ -160,16 +163,38 @@ padding-bottom: 20px;
 	justify-content: center;
 	text-align: center;
 }
+@media screen and (max-width:991px) {
+.b3{
+height: 45px;
+}
+.aside1 .imge{
+	padding-left: 50;
+}
+}
 .present{
 	border: solid;
 	border-color: black;
-	height: 30rem;
+	height: 20rem;
 	border-radius: 25px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
 .foto{
 	max-height: 90%;
 	border-radius: 25px;
 }
+.present2{
+	border: solid;
+	border-color: black;
+	height: 20rem;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media screen and (max-width:991px) {
+	.present{
+	height: 25rem;
+	}

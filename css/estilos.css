@@ -110,3 +110,12 @@ text-align: center;
 	justify-content: center;
 	flex-direction: column;
 }
+.aside1 .imge{
+padding-left: 200px;
+padding-bottom: 20px;
+}
+.aside1 .ag{
+	text-decoration: none;
+	text-decoration-color: none;
+}
+

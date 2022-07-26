@@ -160,7 +160,16 @@ padding-bottom: 20px;
 	justify-content: center;
 	text-align: center;
 }
-.b3 . link{
-	text-decoration: none !important;
-	list-style: none !important;
+.present{
+	border: solid;
+	border-color: black;
+	height: 30rem;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.foto{
+	max-height: 90%;
+	border-radius: 25px;
 }
